@@ -15,7 +15,7 @@ const Post = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'user',
     required: true
-  }
+  },
   notes: {
     type: Schema.Types.ObjectId,
     ref: 'user'
